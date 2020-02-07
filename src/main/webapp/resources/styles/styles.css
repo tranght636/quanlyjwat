@@ -1,0 +1,50 @@
+@charset "UTF-8";
+.myNavbar{
+	background: #C3DBE0 !important;
+}
+.textCenterUppercase{
+	background: #F8F8F8;
+	font-family: Sarabun;
+	text-transform: uppercase;
+	text-align: center;
+    background: #E8E8E8;
+
+
+}
+
+.icon {
+  color: white;
+  font-size: 24px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+#marginBottomTopRight10
+{
+ 	margin-bottom: 10px;
+    margin-top: 10px;
+    padding-right: 10px;
+}
+#avatar{
+	background: blue;
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	text-align: center;
+	color: white;
+}
+table.dataTable thead .sorting:after,
+table.dataTable thead .sorting:before,
+table.dataTable thead .sorting_asc:after,
+table.dataTable thead .sorting_asc:before,
+table.dataTable thead .sorting_asc_disabled:after,
+table.dataTable thead .sorting_asc_disabled:before,
+table.dataTable thead .sorting_desc:after,
+table.dataTable thead .sorting_desc:before,
+table.dataTable thead .sorting_desc_disabled:after,
+table.dataTable thead .sorting_desc_disabled:before {
+bottom: .5em;
+}
